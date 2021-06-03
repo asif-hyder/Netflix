@@ -1,0 +1,341 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: #000;
+    color: #fff;
+}
+section{
+    border-bottom: 4px solid #64636364;
+    border-width: 7px;
+}
+.netflix-wrapper{
+    background-image: url(../images/dUyCkp.jpg);
+    height: 100vh;
+}
+
+.example{
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.75);
+}
+
+.header{
+    height: 70px;
+    padding-top: 10px;
+    padding-left: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    height: 40px;
+    align-self: center;
+    margin-right: 30px;
+}
+
+.txt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    height: 80vh;
+}
+                        /* second-section */
+.tv-hero-text{
+    padding-top: 170px;
+}
+.tv-hero-text h1{
+    font-size: 52px;
+}
+.tv img{
+    width: 100%;
+    height: auto;
+    position: absolute;
+}
+
+/* third section */
+.downloadimg{
+    margin-left: -10px;
+}
+.downlaodtext{
+    padding-top: 160px;
+    padding-left: 70px;
+}
+.downlaod-section{
+    width: 350px; 
+    height: 100px;
+    border: 2px solid #999999;
+    border-radius: 10px;
+    margin-left: 140px;
+    transform: translateY(-125%);
+    background: #000;
+    font-weight: 600;
+}
+.downlaod-section-1{
+    width: 100%;
+    height: 100%;
+}
+.downlaod-section-1 img{
+    height: 100%;
+    position: relative;
+    left: -33%;
+    top: 0%;
+}
+.text1 ,.text2{
+    height: 7px;
+    position: relative;
+    top: -79%;
+    left: 29px;
+    text-align: center;
+}
+.text2{
+    color: rgb(9, 9, 243);
+}
+.downlaod-section-2 img{
+    height: auto;
+    width: 3em;
+    margin-top: 20px;
+    
+}
+
+/* forth Section */
+.video-hero-text{
+    padding-top: 80px;
+}
+.tv-video video{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 27%;
+    left: 25%;
+    width: 380px;
+    height: auto;
+}
+
+
+                    /* fifth section */
+.kids-img{
+    margin-left: -100px;
+}
+.kids-text{
+    padding-top: 170px;
+    padding-left: 10px;
+    font-weight: bold;
+    word-spacing: 2px;
+}
+                    /* sixth section */
+.container1{
+    width: 70%;
+    margin: 0px auto;
+}
+.question{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    background: #303030;
+}
+.question h2{
+    padding-top: 4px;
+}
+.question button{
+    border: none;
+    background: transparent;
+    color: #fff;
+    outline: none;
+    
+}
+.question button span{
+    font-size: 30px ;
+    position: relative;
+    top: -32%;
+    left: 110%;   
+}
+.bg-text{
+    background-color: #303030;
+    margin: 1px;
+    display: none;
+}
+
+/* Qestion Section2 */
+.question2{
+    margin-top: 30px;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    background: #303030;
+}
+.question2 h2{
+    padding-top: 4px;
+}
+.question2 button{
+    border: none;
+    background: transparent;
+    color: #fff;
+    outline: none;
+    
+}
+.question2 button span{
+    font-size: 30px ;
+    position: relative;
+    top: -32%;
+    left: 110%;   
+}
+.bg-text2{
+    background-color: #303030;
+    margin: 1px;
+    display: none;
+}
+/* question section 3 */
+.question3{
+    margin-top: 30px;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    background: #303030;
+}
+.question3 h2{
+    padding-top: 4px;
+}
+.question3 button{
+    border: none;
+    background: transparent;
+    color: #fff;
+    outline: none;
+    
+}
+.question3 button span{
+    font-size: 30px ;
+    position: relative;
+    top: -32%;
+    left: 110%;   
+}
+.bg-text3{
+    background-color: #303030;
+    margin: 1px;
+    display: none;
+}
+/* question section 4 */
+.question4{
+    margin-top: 30px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    background: #303030;
+}
+.question4 h2{
+    padding-top: 4px;
+}
+.question4 button{
+    border: none;
+    background: transparent;
+    color: #fff;
+    outline: none;
+    
+}
+.question4 button span{
+    font-size: 30px ;
+    position: relative;
+    top: -32%;
+    left: 110%;   
+}
+.bg-text4{
+    background-color: #303030;
+    margin: 1px;
+    display: none;
+}
+/* question section 5 */
+.question5{
+    margin-top: 30px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    background: #303030;
+}
+.question5 h2{
+    padding-top: 4px;
+}
+.question5 button{
+    border: none;
+    background: transparent;
+    color: #fff;
+    outline: none;
+    
+}
+.question5 button span{
+    font-size: 30px ;
+    position: relative;
+    top: -32%;
+    left: 110%;   
+}
+.bg-text5{
+    background-color: #303030;
+    margin: 1px;
+    display: none;
+}
+/* question section 6 */
+.question6{
+    margin-top: 30px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    background: #303030;
+}
+.question6 h2{
+    padding-top: 4px;
+}
+.question6 button{
+    border: none;
+    background: transparent;
+    color: #fff;
+    outline: none;
+    
+}
+.question6 button span{
+    font-size: 30px ;
+    position: relative;
+    top: -32%;
+    left: 110%;   
+}
+.bg-text6{
+    background-color: #303030;
+    margin: 1px;
+    display: none;
+}
+.text-reset a{
+    color: #303030;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* mobile code
+
+
+@media only screen and (max-width: 768px) {
+    
+  } */
